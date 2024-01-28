@@ -43,7 +43,6 @@ colnames(result)=names
 list(result=result[-1,])
 
 }
-
 ######################################################################################################
  ## simulation
 p0=0.3;
@@ -53,7 +52,6 @@ X2=rnorm(n*(1-p0), mean=4) # n*(1-p0) individuals from N(4,1)
 X=c(X1,X2) # observed data
 hist(X,50,col="blue")
 #----------------------------------------------------------------------
-
 ## initial values for EM
 p=0.5
 mu1=quantile(X, 0.1)
