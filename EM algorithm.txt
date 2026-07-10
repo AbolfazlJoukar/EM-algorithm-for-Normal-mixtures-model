@@ -61,5 +61,5 @@ c(p, mu1, mu2, sd1, sd2)
 #----------------------------------------------------------------------
 RESULT=EM_TwoMixtureNormal(p, mu1, mu2, sd1, sd2, X)$result
 
-round(RESULT,6)
+round(RESULT,7)
 
